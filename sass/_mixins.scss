@@ -24,18 +24,15 @@
                     align-items: center;
                     flex-direction: column;
                     
-                        p {
-                            color: $DarkViolet;
-                            font-size: 2rem;
-                            font-weight: 700;
+                        .img {
                             padding: 1.625rem;
                         }
 
-                        div {
+                        .social-media {
                             width: 70%;
                             display: flex;
                             margin-top: .4rem;
-                            margin-bottom: 2.25rem;
+                            margin-bottom: 2.9rem;
                             justify-content: space-evenly;
                         }
                 }
@@ -59,7 +56,7 @@
                     
                             p {
                                 color: $DarkGrayishViolet;
-                                font-weight: 400;
+                                font-weight: 600;
                                 margin-bottom: 2.5rem;
                             }
 
@@ -67,6 +64,7 @@
                                 color: $DarkViolet;
                                 text-decoration: none;
                                 margin-bottom: 1rem;
+                                
                             }
 
                     }

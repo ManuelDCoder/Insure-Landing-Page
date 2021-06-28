@@ -40,19 +40,16 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer .media p {
-    color: #2d2640;
-    font-size: 2rem;
-    font-weight: 700;
+  footer .media .img {
     padding: 1.625rem;
   }
-  footer .media div {
+  footer .media .social-media {
     width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: .4rem;
-    margin-bottom: 2.25rem;
+    margin-bottom: 2.9rem;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -83,7 +80,7 @@
   }
   footer .links div p {
     color: #837d87;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 2.5rem;
   }
   footer .links div a {
