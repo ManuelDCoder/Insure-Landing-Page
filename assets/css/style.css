@@ -2,7 +2,95 @@
   font-size: 16px;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+  footer {
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2.5rem 2.5rem;
+    background: #95a9c617;
+  }
+  footer .bg-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
+  footer .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .media p {
+    color: #2d2640;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1.625rem;
+  }
+  footer .media div {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: .4rem;
+    margin-bottom: 2.25rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer .links {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2.6rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-transform: uppercase;
+  }
+  footer .links div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .links div p {
+    color: #837d87;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+  }
+  footer .links div a {
+    color: #2d2640;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,4 +100,3 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Karla', sans-serif;
 }
-/*# sourceMappingURL=style.css.map */

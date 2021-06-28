@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+@include mobile;
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'DM Serif Display', serif;
 }
@@ -12,3 +14,4 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Karla', sans-serif;
 }
+
