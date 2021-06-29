@@ -94,18 +94,19 @@ body {
 @media (max-width: 425px) {
   footer {
     width: 100%;
-    height: 1024px;
-    position: relative;
-    overflow: hidden;
+    height: 1025px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    overflow: hidden;
+    padding-bottom: 0;
+    position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 5.5rem;
     background: #95a9c617;
+    padding: 5.5rem 1.562rem;
   }
   footer .bg-image {
     display: none;
@@ -142,6 +143,9 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  footer hr {
+    width: 326px;
   }
   footer .links {
     display: -webkit-box;

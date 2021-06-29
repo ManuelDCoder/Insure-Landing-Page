@@ -1,13 +1,15 @@
 @media (max-width: 425px) {
     footer {
         width: 100%;
-        height: 1024px;
-        position: relative;
-        overflow: hidden;
+        height: 1025px;
         display: flex;
+        overflow: hidden;
+        padding-bottom: 0;
+        position: relative;
         flex-direction: column;
-        padding-top: 5.5rem;
         background: #95a9c617;
+        padding: 5.5rem 1.562rem;
+        
 
             .bg-image {
                 display: none;
@@ -42,7 +44,10 @@
                     }
             }
 
-            
+            hr {
+                width: 326px;
+            }
+
             .links {
                 
                 display: flex;
