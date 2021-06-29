@@ -1,103 +1,6 @@
 * {
   padding: 0;
   margin: 0 auto;
-  box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "DM Serif Display", serif;
-}
-
-body {
-  font-family: "Karla", sans-serif;
-}
-
-@media all and (max-width: 375px) {
-  .bg-pattern-intro-right-mobile {
-    position: absolute;
-    top: -23%;
-    right: 1%;
-    overflow: hidden;
-  }
-
-  .starting-line {
-    width: 149px;
-    height: 1px;
-    border: 1px solid #9b9999;
-    position: absolute;
-    top: 20%;
-    left: 33%;
-  }
-
-  .middle-section {
-    padding-top: 160px;
-    text-align: center;
-  }
-
-  .title h1 {
-    font-size: 48px;
-    padding-bottom: 91px;
-    color: #5e5c5c;
-  }
-
-  .snappy-icon, .affordable-icon, .people-first-icon {
-    padding-bottom: 20px;
-  }
-
-  .snappy-title h2, .affordable-title h2, .people-first-title h2 {
-    font-size: 26px;
-    padding-bottom: 25px;
-    color: #525050;
-  }
-
-  .snappy-text, .affordable-text, .people-first-text {
-    font-size: 13px;
-    width: 77%;
-    line-height: 20px;
-    word-spacing: 0.2rem;
-    color: #5e5c5c;
-    padding-bottom: 56px;
-  }
-
-  .down-triangle {
-    border: 1px solid black;
-    width: 329px;
-    height: 348px;
-    background-color: #2d2640;
-    position: relative;
-  }
-
-  .down-triangle img {
-    position: absolute;
-    left: 46%;
-    top: -1%;
-    overflow: hidden;
-  }
-
-  .down-triangle h1 {
-    font-size: 36px;
-    color: white;
-    width: 233px;
-    padding-top: 72px;
-    padding-bottom: 39px;
-  }
-
-  .inside-triangle {
-    border: 1px solid white;
-    width: 160px;
-    height: 39px;
-  }
-
-  .inside-triangle h3 {
-    color: white;
-    font-size: 11px;
-    padding-top: 10px;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.2rem;
-  }
-}/*# sourceMappingURL=style.css.map */
-=======
-  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -127,6 +30,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  nav img {
+    margin: 0;
   }
   #hero {
     display: -webkit-box;
@@ -181,10 +87,77 @@ body {
   }
 }
 
-@media (max-width: 425px) {
-  #middle {
-    height: 1795px;
-    background: #837d87;
+@media all and (max-width: 375px) {
+  .bg-pattern-intro-right-mobile {
+    position: absolute;
+    top: -23%;
+    right: 1%;
+    overflow: hidden;
+  }
+  .starting-line {
+    width: 149px;
+    height: 1px;
+    border: 1px solid #9b9999;
+    position: absolute;
+    top: 7%;
+    left: 33%;
+  }
+  .middle-section {
+    position: relative;
+    padding-top: 160px;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 48px;
+    padding-bottom: 91px;
+    color: #5e5c5c;
+  }
+  .snappy-icon, .affordable-icon, .people-first-icon {
+    padding-bottom: 20px;
+  }
+  .snappy-title h2, .affordable-title h2, .people-first-title h2 {
+    font-size: 26px;
+    padding-bottom: 25px;
+    color: #525050;
+  }
+  .snappy-text, .affordable-text, .people-first-text {
+    font-size: 13px;
+    width: 77%;
+    line-height: 20px;
+    word-spacing: 0.2rem;
+    color: #5e5c5c;
+    padding-bottom: 56px;
+  }
+  .down-triangle {
+    border: 1px solid black;
+    width: 329px;
+    height: 348px;
+    background-color: #2d2640;
+    position: relative;
+  }
+  .down-triangle img {
+    position: absolute;
+    left: 46%;
+    top: -1%;
+    overflow: hidden;
+  }
+  .down-triangle h1 {
+    font-size: 36px;
+    color: white;
+    width: 233px;
+    padding-top: 72px;
+    padding-bottom: 39px;
+  }
+  .inside-triangle {
+    border: 1px solid white;
+    width: 160px;
+    height: 39px;
+  }
+  .inside-triangle h3 {
+    color: white;
+    font-size: 11px;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
   }
 }
 
@@ -196,7 +169,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    padding-bottom: 0;
+    margin-top: 8.75rem;
     position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -204,6 +177,7 @@ body {
             flex-direction: column;
     background: #95a9c617;
     padding: 5.5rem 1.562rem;
+    padding-bottom: 0;
   }
   footer .bg-image-desktop {
     display: none;
@@ -229,17 +203,20 @@ body {
     margin-bottom: 2.5rem;
   }
   footer .media .logo {
-    width: 25%;
+    width: 80%;
     margin-bottom: 2rem;
   }
   footer .media .social-media {
-    width: 40%;
+    width: 110%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  footer hr {
+    width: 100%;
   }
   footer .links {
     display: -webkit-box;
@@ -278,4 +255,3 @@ body {
     margin-bottom: .83rem;
   }
 }
-

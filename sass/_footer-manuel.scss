@@ -4,11 +4,13 @@
         height: 1025px;
         display: flex;
         overflow: hidden;
-        padding-bottom: 0;
+        margin-top: 8.75rem;
         position: relative;
         flex-direction: column;
         background: #95a9c617;
         padding: 5.5rem 1.562rem;
+        padding-bottom: 0;
+
         
         // background image
             .bg-image-desktop {
@@ -33,18 +35,20 @@
                 margin-bottom: 2.5rem;
                 
                     .logo {
-                        width: 25%;
+                        width: 80%;
                         margin-bottom: 2rem;
                     }
 
                     .social-media {
-                        width: 40%;
+                        width: 110%;
                         display: flex;
                         justify-content: space-evenly;
                     }
             }
         // Footer Media end
-
+            hr {
+                width: 100%;
+            }
             //  Footer Links
             .links {
                 
