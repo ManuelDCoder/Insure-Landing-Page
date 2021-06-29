@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AEAA,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC;EACnB,WAAW,EAAE,yBAAyB;CACzC;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,mBAAmB;CACnC",
-    "sources": [
-        "../../sass/style.scss",
-        "../../sass/_variables.scss",
-        "../../sass/_globals.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../sass/_globals.scss","../../sass/_middle-section.scss","../../sass/_variables.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;ACVJ;EAEI;IACI;IACA;IACA;IACA;;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;;;EAGJ;IACI;IACA;;;EAGJ;IACI;IAEA;IACA;;;EAGJ;IACI;;;EAEJ;IACI;IACA;IACA;;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;;;EAGJ;IACI;IACA;IACA;IACA,kBCtDK;IDuDL;;;EAEJ;IACI;IACA;IACA;IACA;;;EAEJ;IACI;IACA;IACA;IACA;IACA;;;EAGH;IACI;IACA;IACA;;;EAGJ;IACI;IACA;IACA;IACA;IACA","file":"style.css.map"}
