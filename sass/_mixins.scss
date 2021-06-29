@@ -38,9 +38,8 @@
                         }
 
                         .social-media {
-                            width: 40%;
+                            width: 40% !important;
                             display: flex;
-                            
                             justify-content: space-evenly;
                         }
                 }
@@ -53,7 +52,7 @@
                     text-align: center;
                     margin-top: 2.75rem;
                     flex-direction: column;
-                    text-transform: uppercase;
+                    text-transform: uppercase !important;
                     
 
                         div {
