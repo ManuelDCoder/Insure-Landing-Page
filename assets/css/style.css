@@ -1,9 +1,79 @@
 * {
-  font-size: 16px;
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.9rem;
+  line-height: 50px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+
+@media (max-width: 425px) {
+  nav {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #hero {
+    display: flex;
+  }
+  #hero-img {
+    width: 100%;
+  }
+  #about {
+    width: 100%;
+    height: 500px;
+    background: #2d2640;
+    position: relative;
+    text-align: center;
+    padding-top: 92px;
+    color: white;
+  }
+  #top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #about-txt {
+    padding: 15px 30px 35px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  #about-btn {
+    width: 144px;
+    height: 38px;
+    border: 2px solid white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-btn:hover {
+    background: white;
+    color: black;
+  }
+  #bottom-right {
+    position: absolute;
+    right: 0;
+    top: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  #middle {
+    height: 1795px;
+    background: #837d87;
+  }
 }
 
 @media (max-width: 425px) {
@@ -11,15 +81,19 @@
     width: 100%;
     height: 1024px;
     overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     padding-top: 5.5rem;
+=======
+    flex-direction: column;
+    padding: 2.5rem 2.5rem;
+>>>>>>> f0c4f9cc581c3087f1c16475d7fe503f1d5142f5
     background: #95a9c617;
+    position: relative;
   }
   footer .bg-image {
     display: none;
@@ -32,9 +106,8 @@
     top: 0;
   }
   footer .media {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -43,12 +116,17 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 2.5rem;
+=======
+    align-items: center;
+    flex-direction: column;
+>>>>>>> f0c4f9cc581c3087f1c16475d7fe503f1d5142f5
   }
   footer .media .logo {
     width: 25%;
     margin-bottom: 2rem;
   }
   footer .media .social-media {
+<<<<<<< HEAD
     width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68,17 +146,38 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+=======
+    width: 70%;
+    display: flex;
+    margin-top: .4rem;
+    margin-bottom: 2.9rem;
+    justify-content: space-evenly;
+  }
+  footer hr {
+    transform: translateY(10px);
+  }
+  footer .links {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2.6rem;
+    flex-direction: column;
+>>>>>>> f0c4f9cc581c3087f1c16475d7fe503f1d5142f5
     text-transform: uppercase;
   }
   footer .links div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     margin-bottom: 2rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+=======
+    margin-bottom: 1rem;
+    flex-direction: column;
+>>>>>>> f0c4f9cc581c3087f1c16475d7fe503f1d5142f5
   }
   footer .links div :last-child {
     margin: 0;
@@ -94,6 +193,7 @@
     margin-bottom: 1rem;
   }
 }
+<<<<<<< HEAD
 
 @media (min-width: 425.1px) and (max-width: 768px) {
   footer {
@@ -279,3 +379,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Karla', sans-serif;
 }
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> f0c4f9cc581c3087f1c16475d7fe503f1d5142f5
