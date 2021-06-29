@@ -144,9 +144,6 @@ body {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  footer hr {
-    width: 326px;
-  }
   footer .links {
     display: -webkit-box;
     display: -ms-flexbox;
