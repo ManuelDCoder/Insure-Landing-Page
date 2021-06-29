@@ -18,10 +18,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2.5rem 2.5rem;
+    padding-top: 5.5rem;
     background: #95a9c617;
   }
   footer .bg-image {
+    display: none;
+  }
+  footer .bg-image-mobile {
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -39,12 +42,103 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 2.5rem;
   }
-  footer .media .img {
+  footer .media .logo {
+    width: 25%;
+    margin-bottom: 2rem;
+  }
+  footer .media .social-media {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2.75rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-transform: uppercase;
+  }
+  footer .links div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .links div :last-child {
+    margin: 0;
+  }
+  footer .links div p {
+    color: #837d87;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  footer .links div a {
+    color: #2d2640;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 425.1px) and (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2.5rem 2.5rem;
+    background: #95a9c617;
+  }
+  footer .bg-image-mobile {
+    display: none;
+  }
+  footer .bg-image {
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
+  footer .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .media .logo {
+    width: 40%;
     padding: 1.625rem;
   }
   footer .media .social-media {
-    width: 70%;
+    width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -55,21 +149,18 @@
             justify-content: space-evenly;
   }
   footer hr {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(23px);
+            transform: translateY(23px);
   }
   footer .links {
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-grid;
+    display: grid;
     overflow: hidden;
     text-align: center;
-    margin-top: 2.6rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    margin-top: 6rem;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     text-transform: uppercase;
   }
   footer .links div {
@@ -83,14 +174,101 @@
             flex-direction: column;
   }
   footer .links div p {
-    color: #837d87;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2.5rem;
+    color: #837d87;
   }
   footer .links div a {
+    font-size: 1.2rem;
     color: #2d2640;
-    text-decoration: none;
     margin-bottom: 1rem;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768.1px) and (max-width: 1440px) {
+  footer {
+    width: 100%;
+    height: 393px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 4rem 10.3125rem;
+    background: #95a9c617;
+  }
+  footer .bg-image-mobile {
+    display: none;
+  }
+  footer .bg-image {
+    position: absolute;
+    width: 41%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
+  footer .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2.3125rem;
+  }
+  footer .media .logo {
+    width: 11.4%;
+  }
+  footer .media .social-media {
+    width: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer .links {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 2.1875rem;
+    text-transform: uppercase;
+  }
+  footer .links div p {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    margin-bottom: 1.8625rem;
+    color: #837d87;
+  }
+  footer .links div a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 0.6875rem;
+    color: #2d2640;
+    margin-bottom: 1.2375rem;
+    text-decoration: none;
+  }
+  footer .links div a:hover {
+    text-decoration: underline;
   }
 }
 
