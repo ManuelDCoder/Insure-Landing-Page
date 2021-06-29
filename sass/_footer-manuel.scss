@@ -1,18 +1,19 @@
 @media (max-width: 425px) {
     footer {
         width: 100%;
-        height: 1024px;
-        position: relative;
-        overflow: hidden;
+        height: 1025px;
         display: flex;
+        overflow: hidden;
+        padding-bottom: 0;
+        position: relative;
         flex-direction: column;
-        padding-top: 5.5rem;
         background: #95a9c617;
-
-            .bg-image {
+        padding: 5.5rem 1.562rem;
+        
+        // background image
+            .bg-image-desktop {
                 display: none;
-            }
-            
+            } 
 
             .bg-image-mobile {
                 position: absolute;
@@ -22,8 +23,9 @@
                 top: 0;
 
             }
+        // background image  End
         
-
+        // Footer Media
             .media {
                 display: flex;
                 align-items: center;
@@ -41,8 +43,9 @@
                         justify-content: space-evenly;
                     }
             }
+        // Footer Media end
 
-            
+            //  Footer Links
             .links {
                 
                 display: flex;
@@ -52,7 +55,7 @@
                 flex-direction: column;
                 text-transform: uppercase;
                 
-
+                
                     div {
                         display: flex;
                         margin-bottom: 2rem;
@@ -62,23 +65,24 @@
                                 margin: 0;
                             }
                         
-                    
+                            // Link Header
                             p {
                                 color: $DarkGrayishViolet;
                                 font-weight: 600;
                                 margin-bottom: 2rem;
                             }
+                            // Link Header
 
+                            // Links
                             a {
                                 color: $DarkViolet;
                                 text-decoration: none;
                                 margin-bottom: 1rem;
-                                
                             }
-
+                            // Links
                     }
-
             }
+            // Footer Links End
 
     }
 }
