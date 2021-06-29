@@ -87,7 +87,7 @@ body {
   }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 425px) {
   .bg-pattern-intro-right-mobile {
     position: absolute;
     top: -23%;
