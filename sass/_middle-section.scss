@@ -71,9 +71,12 @@
         
     }
      .inside-triangle{
-         border: 1px solid white;
-         width: 160px;
-         height: 39px;
+        border: 1px solid white;
+        width: 160px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
 
      .inside-triangle h3{
