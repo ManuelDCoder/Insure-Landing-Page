@@ -1,0 +1,87 @@
+@media (max-width: 425px) {
+    footer {
+        width: 100%;
+        height: 1025px;
+        display: flex;
+        overflow: hidden;
+        padding-bottom: 0;
+        position: relative;
+        flex-direction: column;
+        background: #95a9c617;
+        padding: 5.5rem 1.562rem;
+        
+        // background image
+            .bg-image-desktop {
+                display: none;
+            } 
+
+            .bg-image-mobile {
+                position: absolute;
+                width: 100%;
+                z-index: -1;
+                left: 0;
+                top: 0;
+
+            }
+        // background image  End
+        
+        // Footer Media
+            .media {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 2.5rem;
+                
+                    .logo {
+                        width: 25%;
+                        margin-bottom: 2rem;
+                    }
+
+                    .social-media {
+                        width: 40%;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+            }
+        // Footer Media end
+
+            //  Footer Links
+            .links {
+                
+                display: flex;
+                overflow: hidden;
+                text-align: center;
+                margin-top: 2.75rem;
+                flex-direction: column;
+                text-transform: uppercase;
+
+                    div {
+                        display: flex;
+                        margin-bottom: 2rem;
+                        flex-direction: column;
+
+                            :last-child{
+                                margin: 0;
+                            }
+                        
+                            // Link Header
+                            p {
+                                color: $DarkGrayishViolet;
+                                font-weight: 600;
+                                margin-bottom: 2rem;
+                            }
+                            // Link Header
+
+                            // Links
+                            a {
+                                color: $DarkViolet;
+                                text-decoration: none;
+                                margin-bottom: 1rem;
+                            }
+                            // Links
+                    }
+            }
+            // Footer Links End
+
+    }
+}
