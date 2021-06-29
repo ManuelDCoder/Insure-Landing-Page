@@ -132,6 +132,7 @@ body {
     border: 1px solid black;
     width: 329px;
     height: 348px;
+    z-index: 1;
     background-color: #2d2640;
     position: relative;
   }
@@ -139,6 +140,7 @@ body {
     position: absolute;
     left: 46%;
     top: -1%;
+    z-index: -1;
     overflow: hidden;
   }
   .down-triangle h1 {
@@ -155,15 +157,20 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    color: white;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background: transparent;
+  }
+  .inside-triangle:hover {
+    background: white;
+    color: black;
   }
   .inside-triangle h3 {
-    color: white;
     font-size: 11px;
     word-spacing: 0.1rem;
     letter-spacing: 0.2rem;

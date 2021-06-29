@@ -53,6 +53,7 @@
         border: 1px solid black;
         width: 329px;
         height:348px;
+        z-index: 1;
         background-color: $DarkViolet;
         position: relative;
     }
@@ -60,6 +61,7 @@
         position: absolute;
         left: 46%;
         top: -1%;
+        z-index: -1;
         overflow: hidden;
     }
     .down-triangle h1{
@@ -71,16 +73,22 @@
         
     }
      .inside-triangle{
-        border: 1px solid white;
-        width: 160px;
-        height: 40px;
+         border: 1px solid white;
+         width: 160px;
+         height: 40px;
         display: flex;
+        color: white;
         justify-content: center;
         align-items: center;
+        background: transparent;
+
+            &:hover {
+                background: white;
+                color: black;
+            }
      }
 
      .inside-triangle h3{
-         color: white;
          font-size: 11px;
         //  padding-top: 10px;
          word-spacing: 0.1rem;
