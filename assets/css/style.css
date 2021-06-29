@@ -27,6 +27,9 @@ body {
   #hero {
     display: flex;
   }
+  #hero-img {
+    width: 100%;
+  }
   #about {
     width: 100%;
     height: 500px;
@@ -67,6 +70,13 @@ body {
 }
 
 @media (max-width: 425px) {
+  #middle {
+    height: 1795px;
+    background: #837d87;
+  }
+}
+
+@media (max-width: 425px) {
   footer {
     width: 100%;
     height: 1024px;
@@ -75,6 +85,7 @@ body {
     flex-direction: column;
     padding: 2.5rem 2.5rem;
     background: #95a9c617;
+    position: relative;
   }
   footer .bg-image {
     position: absolute;
