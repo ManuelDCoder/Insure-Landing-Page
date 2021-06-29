@@ -97,7 +97,7 @@ body {
   .starting-line {
     width: 149px;
     height: 1px;
-    border: 1px solid #9b9999;
+    background-color: #9b9999;
     position: absolute;
     top: 7%;
     left: 33%;
