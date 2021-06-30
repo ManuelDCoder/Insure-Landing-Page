@@ -1,0 +1,101 @@
+
+
+@media all and (max-width: 425px){
+
+    .bg-pattern-intro-right-mobile{
+        position: absolute;
+        top: -23%;
+        right: 1%;
+        overflow:hidden;
+    }
+ 
+    .starting-line{
+        width:149px;
+        height:1px ;
+        background-color: #9b9999;
+        position: absolute;
+        top: 7%;
+        left: 33%;
+    }
+
+    .middle-section{
+        position: relative;
+        padding-top: 160px;
+        text-align: center;
+    }
+
+    .title h1{
+        font-size: 48px ;
+        // width: 400px;
+        padding-bottom: 91px;
+        color: rgb(94, 92, 92);
+    }
+
+    .snappy-icon,.affordable-icon,.people-first-icon{
+        padding-bottom: 20px;
+    }
+    .snappy-title h2 , .affordable-title h2,.people-first-title h2{
+        font-size: 26px;
+        padding-bottom: 25px;
+        color: rgb(82, 80, 80);
+    }
+    
+    .snappy-text, .affordable-text ,.people-first-text {
+        font-size: 13px;
+        width: 77%;
+        line-height: 20px;
+        word-spacing: 0.2rem;
+        color:rgb(94, 92, 92);
+        padding-bottom: 56px;
+        
+    }
+    .down-triangle{
+        border: 1px solid black;
+        width: 329px;
+        height:348px;
+        z-index: 1;
+        background-color: $DarkViolet;
+        position: relative;
+    }
+    .down-triangle img{
+        position: absolute;
+        left: 46%;
+        top: -1%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .down-triangle h1{
+        font-size: 36px;
+        color: white;
+        width: 233px;
+        padding-top: 72px;
+        padding-bottom:39px;
+        
+    }
+     .inside-triangle{
+         border: 1px solid white;
+         width: 160px;
+         height: 40px;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+
+            &:hover {
+                background: white;
+                color: black;
+            }
+     }
+
+     .inside-triangle h3{
+         font-size: 11px;
+        //  padding-top: 10px;
+         word-spacing: 0.1rem;
+         letter-spacing: 0.2rem;
+     }
+    
+
+
+}
+

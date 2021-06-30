@@ -4,35 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title> Insure Landing Page </title>
 
     <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- style -->
     
     <!-- header fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!-- header fonts -->
+
+        
 
     <!-- body font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
-    
+    <!-- body font -->
+
 </head>
 <body>
-    
+
     <!-- nav -->
     <nav>
         <img src="./assets/images/logo.svg">
-        <img src="./assets/images/icon-hamburger.svg" alt="">
+        <img src="./assets/images/icon-hamburger.svg" id="hamburger" onclick="openMenu()" alt="">
+        <img src="./assets/images/icon-close.svg" id="close" onclick="closeMenu()">
     </nav>
+    
+    <!-- mobile menu -->
+
+    <div class="mobile-menu" id="menu">
+        <div class="links">
+            
+                <div>
+                    <a href="#">
+                            how we work
+                    </a>
+                </div>
+            
+                <div>
+                    <a href="#">
+                        blog
+                </a>
+                </div>
+            
+                
+                <div>
+                    <a href="#">
+                        
+                            account
+                        
+                    </a>
+                </div>
+            
+                <div>
+                    
+                    <a href="#">
+                        view plans
+                </a>
+                </div>
+            
+        </div>
+
+        <img src="./assets/images/bg-pattern-mobile-nav.svg" alt="">
+    </div>
+
+    <!-- mobile menu end -->
     
     <!-- hero -->
     <div id="hero">
         <img src="./assets/images/image-intro-mobile.jpg" id="hero-img">
     </div>
     
+
+
     <!-- about -->
     <div id="about">
         <img src="./assets/images/bg-pattern-intro-left-mobile.svg" id="top-left">
@@ -45,7 +94,72 @@
     </div>
     
     <!-- middle -->
-    <div id="middle"></div>
+
+    <div class="middle-section">
+        <div class="bg-pattern-intro-right-mobile">
+            <img src="./assets/images/bg-pattern-intro-right-mobile.svg">
+        </div>
+
+        <div class="starting-line"></div>
+        <div class="title">
+          <h1> We’re different</h1> 
+        </div>
+
+        <div class="snappy-process">
+            <div class="snappy-icon">
+                <img src="./assets/images/icon-snappy-process.svg" alt="snappy-icon">
+            </div>
+            <div class="snappy-title">
+               <h2>Snappy Process</h2>
+            </div>
+            <div class="snappy-text">
+                Our application process can be completed
+                 in minutes, not hourrs. Don’t get stuck filling 
+                in tedious forms.
+            </div>
+        </div>
+
+        <div class="affordable-price">
+            <div class="affordable-icon">
+                <img src="./assets/images/icon-affordable-prices.svg" alt="affordable-icon">
+            </div>
+            <div class="affordable-title">
+              <h2>Affordable Prices</h2>  
+            </div>
+            <div class="affordable-text">
+                We don’t want you worrying about high
+                monthly costs.Our prices may be low, but
+                 we still offer the best coverage possible. 
+            </div>
+        </div>
+
+        <div class="people-first">
+            <div class="people-first-icon">
+                <img src="./assets/images/icon-people-first.svg" alt="people-first-icon">
+            </div>
+            <div class="people-first-title">
+               <h2>People First</h2> 
+            </div>
+            <div class="people-first-text">
+                Our plans aren’t full of  condition and
+                clauses to prevent payouts. We make sure 
+                you’re covered when you need it 
+            </div>
+        </div>
+        <div class="down-triangle">
+            <img src="./assets/images/bg-pattern-how-we-work-mobile.svg">
+
+            <h1>
+            Find out more
+            about how we 
+             work
+            </h1>
+            <div class="inside-triangle">
+                <h3>HOW WE WORK</h3>
+            </div>
+        </div>
+
+    </div> 
     <!-- middle -end  -->
     
     <!-- Footer Section -->
@@ -54,17 +168,23 @@
             <!-- footer header section -->
             
             <!-- background image -->
-            <img class="bg-image" src="./assets/images/bg-pattern-footer-mobile.svg" alt="">
+            <img class="bg-image-desktop" src="./assets/images/bg-pattern-footer-desktop.svg" alt="">
+            <img class="bg-image-mobile" src="./assets/images/bg-pattern-footer-mobile.svg" alt="mobile">
             <!-- background image -->
-            <div class="media">
-                <img class="img" src="./assets/images/logo.svg" alt="">
             
+            <div class="media">
+                    <!-- logo -->
+                <img class="logo" src="./assets/images/logo.svg" alt="">
+                    <!-- logo  -->
+
+                    <!-- Social Media -->
                 <div class="social-media">
                     <img src="./assets/images/icon-facebook.svg" alt="icon-facebook">
                     <img src="./assets/images/icon-twitter.svg" alt="icon-twitter">
                     <img src="./assets/images/icon-pinterest.svg" alt="icon-pinterest">
                     <img src="./assets/images/icon-instagram.svg" alt="icon-instagram">
                 </div>
+                    <!-- Social media -->
             </div>
             <!-- footer header section -->
     
@@ -142,13 +262,13 @@
                         licenses
                     </a>
                 </div>
-                    
-                    
-                
-    
             </div>
             <!-- Links -->
         </footer>
     <!-- Footer Sectin End -->
+
+    <!-- Script -->
+        <script src="./assets/js/script.js"></script>
+    <!-- Script end -->
 </body>
 </html>
